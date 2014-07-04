@@ -1,0 +1,252 @@
+@import "fonts.css";
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+p {
+  font-family: "MuseoSans300";
+  text-align: justify;
+  color: #535353;
+  font-size: 14px;
+}
+header {
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-family: "bebas_neueregular";
+  color: #26b2bf;
+  font-size: 42px;
+  line-height: 110%;
+  font-weight: normal;
+}
+header h2 {
+  font-family: "robotoregular";
+  color: #26b2bf;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+}
+section {
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #dff4f6;
+  min-height: 100px;
+  padding-top: 18px;
+}
+footer .d4 {
+  background: transparent url("http://univision.akorahq.com/ciudades_expulsoras/images/logo-d4.png") no-repeat left center;
+  min-height: 62px;
+  padding-left: 72px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+footer .d4 h2 {
+  font-family: "MuseoSans700";
+  font-size: 14px;
+  color: #26b2bf;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+footer .d4 a {
+  font-family: "MuseoSans300";
+  font-size: 14px;
+  color: #26b2bf;
+  line-height: 120%;
+  text-decoration: none;
+}
+.nota-metodologica h3 {
+  font-family: "MuseoSans700";
+  font-size: 12px;
+  font-weight: normal;
+  color: #999999;
+  margin-bottom: 0;
+  line-height: 140%;
+}
+.nota-metodologica p {
+  font-size: 12px;
+  color: #999999;
+  line-height: 140%;
+}
+.nota-metodologica svg {
+  height: 1px;
+}
+.nota-metodologica svg line {
+  stroke: #999999;
+  stroke-width: 1px;
+}
+.nota-metodologica .consultar {
+  background: #29b4c2 url("http://univision.akorahq.com/ciudades_expulsoras/images/hoja.png") no-repeat 10px center;
+  display: inline-block;
+  padding: 10px;
+  min-height: 24px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.nota-metodologica .consultar a {
+  color: white;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: "MuseoSans300";
+  font-size: 16px;
+  line-height: 24px;
+}
+.nota-metodologica .consultar a:hover {
+  text-decoration: none;
+}
+#mapa {
+  background-color: #eeeeee;
+  #margin-bottom: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#mapa #svgUsa {
+  margin-top: -130px;
+}
+#mapa .anio {
+  
+  font-family: "bebas_neueregular";
+  font-size: 23px;
+  display: inline-block;
+  background-color: rgba(136, 136, 136, 0.3);
+ 
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#mapa .anio a {
+  color: rgba(134, 134, 134, 0.6);
+}
+#mapa .anio a:hover {
+  text-decoration: none;
+}
+#mapa .selected {
+  background-color: #29b4c2;
+}
+#mapa .selected a {
+  color: #f7f7f7;
+  cursor: default;
+}
+#mapa .legend {
+  padding: 10px;
+}
+#mapa #consulado {
+  visibility: hidden;
+}
+#barra .barra {
+  height: 20px;
+  background: transparent url("http://univision.akorahq.com/ciudades_expulsoras/images/gradiente.png") no-repeat center center;
+  background-size: 704px 20px;
+}
+#barra p {
+  font-family: "bebas_neueregular";
+  font-size: 12px;
+  line-height: 1.2em;
+  color: #888888;
+  text-transform: uppercase;
+  margin-top: .5em;
+}
+.lang {
+  display: inline-block;
+  padding: 5px;
+  color: white !important;
+  text-decoration: none;
+  background-color: #545454;
+}
+.lang:hover {
+  background-color: #29b4c2;
+  text-decoration: none;
+}
+.hoverinfo {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-family: Arial;
+  font-size: 10px;
+  line-height: 1.2em;
+  color: #2c2c2c;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#municipios {
+  fill: #ababab;
+  stroke: white;
+  stroke-width: 0.25px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+#states {
+  fill: #dadada;
+  stroke: white;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+#consulados {
+  fill: #00485e;
+  stroke: white;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+#municipios .active {
+  fill: orange !important;
+}
+.ie-compat {
+  position: absolute;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 40px 100px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  width: 420px;
+  display: none;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.ie-compat h2 {
+  font-family: 'MuseoSans700';
+  font-size: 16px;
+  color: #27b2c0;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.ie-compat p {
+  text-align: center;
+}
+.ie-compat p.space {
+  margin-top: 40px;
+}
+.ie-compat a.space {
+  margin-left: 80px;
+}
+
